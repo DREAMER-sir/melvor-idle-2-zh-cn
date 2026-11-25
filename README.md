@@ -1,4 +1,26 @@
-《简体中文》首个公开版本，适用于 **Windows Steam 版《Melvor Idle 2》v0.11.6-alpha.1（Build 26724394）**。汉化可独立安装，无需 Melvor Mod Loader。
+# 《Melvor Idle 2》简体中文
+
+Windows Steam 版《Melvor Idle 2》的非官方汉化，支持在游戏内切换中英文，无需另装 Mod 加载器。
+
+**请安装最新版汉化。** v1.0.0 适配的游戏版本 v0.11.6-alpha.1（Build 26724394）已过时。游戏更新到 v0.11.7-alpha 后，v1.0.0 原包无法加载中文。v1.1.0 已适配 v0.11.7-alpha（Build 26886380）。
+
+**[下载最新版汉化（GitHub Releases）](https://github.com/DREAMER-sir/melvor-idle-2-zh-cn/releases/latest)**
+
+## 安装、升级与卸载
+
+1. 正常退出游戏。如果装过 v1.0.0，先双击旧安装包中的 `Uninstall.cmd`。如果使用其他汉化，请按该汉化的说明卸载。
+2. 在最新版发布页的 **Assets** 中下载文件名以 `MelvorIdle2-zh-CN-v` 开头的 ZIP 安装包，完整解压后双击 `Install.cmd`。
+3. 照常从 Steam 启动游戏，在 **Settings → Language** 中选择「简体中文」。
+
+请保留解压后的文件夹。需要卸载时，正常退出游戏，双击其中的 `Uninstall.cmd`。
+
+## v1.1.0 更新
+
+补译了新版词库的 322 个新增条目，核对了 1 个改动条目，并优化了任务页和农务页的首次加载。常规游戏更新后，汉化会继续匹配仍适用的译文。新增或改写的文本可能暂时显示英文。[完整更新说明与切页实测](https://github.com/DREAMER-sir/melvor-idle-2-zh-cn/releases/tag/v1.1.0)
+
+## v1.0.0 历史记录
+
+以下数据均来自游戏 v0.11.6-alpha.1（Build 26724394），保留供旧版对照。
 
 ### 性能亮点
 
@@ -30,18 +52,14 @@
 - 适配 398 个界面场景，处理中文长文本换行，补全牧场倒计时、统计时段等动态文字。
 - 支持在游戏设置中切换简体中文和英文。仓库默认页名随语言切换，玩家自定义的页名保留原样。
 
-### 下载与安装
+v1.0.0 曾与 13 个公开非语言 Mod 同时加载，其中部分 Mod 做过功能交互测试。
 
-1. 在本页下方的 **Assets** 中下载 **`MelvorIdle2-zh-CN-v1.0.0.zip`**。
-2. 退出游戏，将 ZIP 完整解压到任意文件夹，双击 **`Install.cmd`**。安装器会自动查找 Steam 游戏目录。
-3. 从 Steam 启动游戏，在首次语言选择界面或游戏设置中选择 **「简体中文」**。
+## 反馈与致谢
 
-如果正在使用其他汉化，请先按原汉化的说明卸载。请保留本版解压后的文件夹，之后需要卸载时，退出游戏并双击 **`Uninstall.cmd`** 即可。
+遇到漏译、文字溢出或安装问题，欢迎在 [Issues](https://github.com/DREAMER-sir/melvor-idle-2-zh-cn/issues) 中附上汉化版本、游戏版本、出现问题的页面及截图或报错文字。
 
-### 兼容性与反馈
+感谢 [KellTA](https://github.com/KettlaE/Melvor2-zh-CN/releases/tag/build-26724394) 提供的翻译对照，以及 [Wei-Chen](https://github.com/Wei-Chen-hub/Melvor-Idle-2-CN_translation) 以 CC0 发布的校订。
 
-已验证本版可与 13 个公开非语言 Mod 同时加载，其中部分 Mod 另做了功能交互测试。
+## 许可证
 
-遇到漏译、文字溢出或安装问题，欢迎在本仓库的 **Issues** 中反馈。请附上汉化版本、游戏版本、出现问题的页面，以及截图或报错文字。
-
-本项目为非官方玩家汉化。感谢 KellTA 提供的翻译对照，以及 Wei-Chen 以 CC0 发布的校订。
+本项目作者原创的安装脚本、汉化程序、文档及译文中作者享有的权利，按 [MIT 许可证](./LICENSE) 授权。再分发时请保留版权和许可声明。游戏原文、美术、字体等第三方内容的权利归各自权利人，沿用各自的授权条件。
